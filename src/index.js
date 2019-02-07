@@ -5,12 +5,12 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 //Context API
-import {ProductProvider} from './Context API/context.js'
+import {Provider} from './Context API/context.js'
 
 ReactDOM.render(
-  <ProductProvider>
+  <Provider>
     <App />
-  </ProductProvider>
+  </Provider>
 , 
 document.getElementById('root'));
 

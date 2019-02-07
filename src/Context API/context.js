@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
 
-const ProductContext = React.createContext();
+const ContextCreated = React.createContext();
 
 //Provider
-class ProductProvider extends Component {
+class Provider extends Component {
   state = {
     isLoggedIn: false,
     startingNum: 0,
@@ -12,18 +12,18 @@ class ProductProvider extends Component {
 
   render() {
     return (
-      <ProductContext.Provider value={{
+      <ContextCreated.Provider value={{
         ...this.state,
         //Methods in object format
         //method:this.method,
         //method2:this.method2,
       }}>
         {this.props.children}
-      </ProductContext.Provider>
+      </ContextCreated.Provider>
     )
   }
 }
 
-const ProductConsumer = ProductContext.Consumer
+const Consumer = ContextCreated.Consumer
 
-export {ProductProvider, ProductConsumer}
+export {Provider, Consumer}

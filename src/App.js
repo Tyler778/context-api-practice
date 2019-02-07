@@ -7,7 +7,7 @@ import 'bootswatch/dist/superhero/bootstrap.min.css'
 
 //Components
 import Jumbotron from './Jumbotron.js'
-import FirstExampleComponent from './FirstExampleComponent';
+import FirstExampleComponent from './FirstComponent/FirstExampleComponent';
 
 class App extends Component {
   render() {
@@ -26,3 +26,7 @@ class App extends Component {
 }
 
 export default App;
+
+
+
+
