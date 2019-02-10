@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 
+//Styled Components
+
 //BootSwatch 
 import 'bootswatch/dist/superhero/bootstrap.min.css'
+
 //Jquery and Bootstrap JS Library CDN inside index.html
 
 //Components
@@ -26,7 +29,5 @@ class App extends Component {
 }
 
 export default App;
-
-
 
 

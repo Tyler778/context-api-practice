@@ -1,0 +1,18 @@
+table.some_style td:hover {
+  background-color: #606060 !important;
+  cursor:pointer;
+}
+.some_style {
+  float: left;
+  border-radius: 6px !important
+}
+.num_input {
+  padding-bottom: 300px !important;
+}
+
+.screen {
+  float: left !important;
+  margin: 25px;
+  size: 250px;
+  border-radius: 6px !important;
+}
